@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 function App() {
  
-  const [active,setActiveIndex] = useState(0)
+  const [active,setActiveIndex] = useState(-1)
 
 const array = [
   {
